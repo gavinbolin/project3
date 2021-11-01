@@ -108,13 +108,22 @@
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/CommentAutomaton.h">
 			<Option target="p1"/>
 		</Unit>
+		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Database.h">
+			<Option target="p1"/>
+		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/DatalogProgram.h">
 			<Option target="p1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/FactsAutomaton.h">
 			<Option target="p1"/>
 		</Unit>
+		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Header.h">
+			<Option target="p1"/>
+		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/IDAutomaton.h">
+			<Option target="p1"/>
+		</Unit>
+		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Interpreter.h">
 			<Option target="p1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/LeftParenAutomaton.h">
@@ -150,6 +159,9 @@
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/QueriesAutomaton.h">
 			<Option target="p1"/>
 		</Unit>
+		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Relation.h">
+			<Option target="p1"/>
+		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/RightParenAutomaton.h">
 			<Option target="p1"/>
 		</Unit>
@@ -169,6 +181,9 @@
 			<Option target="p1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Token.h">
+			<Option target="p1"/>
+		</Unit>
+		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Tuple.h">
 			<Option target="p1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/WhitespaceAutomaton.h">

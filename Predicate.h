@@ -16,5 +16,16 @@ public:
             params[i]->toString();
         }
     }
+    std::vector<Parameter*> getParams(){return params;}
+    std::string getName(){return head;}
+    size_t pSize(){return params.size();}
+    Parameter* at(size_t i){return params[i];}
+    std::vector<std::string> makeTuple(){
+        std::vector<std::string> out;
+        for(size_t i=0; i<params.size(); i++){
+            out.push_back(params[i]->getDesc());
+        }
+        return out;
+    }
 };
 #endif //P1_PREDICATE_H

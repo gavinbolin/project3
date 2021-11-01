@@ -1,14 +1,15 @@
-# COPYRIGHT © BRIGHAM YOUNG UNIVERSITY CS 236
-# FOR USE ONLY DURING SPRING 2021 SEMESTER
-# passoffInput26     SUCCESS
 Schemes:
-
-noDeath( n , d )
-
+  SK(A,B)
 Facts:
-
+  SK('a','c').
+  SK('b','c').
+  SK('b','b').
+  SK('b','c').
 Rules:
 
 Queries:
-
-noDeath( 'no' , 'Death' )?
+  SK(X,'c')?
+  SK('b','c')?
+  SK(X,X)?
+  SK(X,Y)?
+  SK('c','c')?

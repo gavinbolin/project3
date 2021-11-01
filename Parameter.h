@@ -8,5 +8,7 @@ private:
 public:
     Parameter(bool s, std::string d){isString = s; desc = d;}
     void toString(){cout << desc;}
+    string getDesc(){return desc;}
+    bool constant(){return isString;}
 };
 #endif //P1_PARAMETER_H

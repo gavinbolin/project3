@@ -19,6 +19,10 @@ public:
     }
     ~DatalogProgram();
     void setDomain(vector<string> v){this->domain = v;}
+    std::vector<Predicate*> getS(){return vecS;}
+    std::vector<Predicate*> getF(){return vecF;}
+    std::vector<Rule*> getR(){return vecR;}
+    std::vector<Predicate*> getQ(){return vecQ;}
     void toString(){
         cout << "Schemes(" << vecS.size() << "):\n";
         for (size_t i=0; i < vecS.size(); i++){

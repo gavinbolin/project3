@@ -3,13 +3,13 @@
 #include "Lexer.h"
 #include "Parser.h"
 #include "DatalogProgram.h"
+#include "Interpreter.h"
 using namespace std;
 
 int main(int argc, char** argv) {
 
     Lexer* lexer = new Lexer();
     Parser* parser = new Parser();
-    //DatalogProgram* dlp = new DatalogProgram();
 
     if (argc != 2) { return 1; }
     ifstream in(argv[1]);
@@ -22,10 +22,12 @@ int main(int argc, char** argv) {
     lexer->Run(input);
     vector<Token*> tokens = lexer->getTokens();
     DatalogProgram* dlp = parser->Run(tokens);
-    if (parser->getPass()) {
+    /*if (parser->getPass()) {
         cout << "Success!\n";
         dlp->toString();
-    }
+    }*/
+    Interpreter* inter = new Interpreter(dlp);
+    inter->run();
     delete lexer;
     delete parser;
     return 0;

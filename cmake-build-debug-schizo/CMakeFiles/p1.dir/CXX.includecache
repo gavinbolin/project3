@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Automaton.h
+Token.h
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Token.h
+
 /users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/DatalogProgram.h
 Predicate.h
 /users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Predicate.h
 Rule.h
 /users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Rule.h
+
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Lexer.h
+vector
+-
+Automaton.h
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Automaton.h
+Token.h
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Token.h
 
 /users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Parameter.h
 
@@ -45,4 +57,16 @@ sstream
 -
 Token.h
 /users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Token.h
+
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/main.cpp
+iostream
+-
+fstream
+-
+Lexer.h
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Lexer.h
+Parser.h
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/Parser.h
+DatalogProgram.h
+/users/guest/g/gbolin/tmp/tmp.mefd2tGEbi/DatalogProgram.h
 

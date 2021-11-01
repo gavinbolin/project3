@@ -29,4 +29,4 @@ add_executable(p1
         WhitespaceAutomaton.h
         IDAutomaton.h
         StringAutomaton.h
-        CommentAutomaton.h Parser.h Parser.cpp DatalogProgram.h Parameter.h Predicate.h Rule.h)
+        CommentAutomaton.h Parser.h Parser.cpp DatalogProgram.h Parameter.h Predicate.h Rule.h Tuple.h Header.h Relation.h Database.h Interpreter.h)
